@@ -427,3 +427,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Local Python analysis artifacts
+*.pyo
+*.pyd
+.venv/
+.pytest_cache/
+tests/artifacts/
